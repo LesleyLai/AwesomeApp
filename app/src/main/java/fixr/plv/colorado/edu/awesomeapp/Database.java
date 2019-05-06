@@ -14,6 +14,8 @@ public class MyDatabase {
 
     while (cursor.moveToNext()) {
       // get stuff from the cursor
+    // new fixes to the code
+    cursor.close();
     }
     }
 
